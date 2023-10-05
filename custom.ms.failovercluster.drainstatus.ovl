@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup desiredValue="1" id="custom.ms.failovercluster.drainstatus" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+	<Lookups>
+		<SingleInt state="Ok" value="1">NotInitiated</SingleInt>
+		<SingleInt state="Warning" value="2">InProgress</SingleInt>
+		<SingleInt state="Ok" value="3">Completed</SingleInt>
+		<SingleInt state="Error" value="4">Failed</SingleInt>
+		<SingleInt state="Error" value="5">Unknown</SingleInt>
+	</Lookups>
+</ValueLookup>

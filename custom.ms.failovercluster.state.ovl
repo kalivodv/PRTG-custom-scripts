@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup desiredValue="1" id="custom.ms.failovercluster.state" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+	<Lookups>
+		<SingleInt state="Ok" value="1">Up</SingleInt>
+		<SingleInt state="Error" value="2">Down</SingleInt>
+		<SingleInt state="Warning" value="3">Paused</SingleInt>
+		<SingleInt state="Warning" value="4">Joining</SingleInt>
+		<SingleInt state="Error" value="5">Unknown</SingleInt>
+	</Lookups>
+</ValueLookup>

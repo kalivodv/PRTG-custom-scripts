@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="custom.crl.check.dwnstatus" desiredValue="0" undefinedState="error" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+	<Boolean state="ok" value="0">
+		Ok
+	</Boolean>
+	<Boolean state="error" value="1">
+		Failed
+	</Boolean>
+   </Lookups>
+</ValueLookup>

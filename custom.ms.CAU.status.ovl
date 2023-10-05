@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup desiredValue="1" id="custom.ms.CAU.status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+	<Lookups>
+		<SingleInt state="Ok" value="1">Succeeded</SingleInt>
+		<SingleInt state="Error" value="2">Failed</SingleInt>
+		<SingleInt state="Error" value="3">Unknown</SingleInt>
+	</Lookups>
+</ValueLookup>

@@ -9,7 +9,7 @@ Password of Krbtgt user accounts in AD should be periodically reset. This script
 ## Get-CLR_Status
 This sensor checks freshness of certificate revocation lists on your CA. It uses PS module CRLFreshCeck: https://learn.microsoft.com/en-us/archive/blogs/russellt/get-crlfreshness
 
-![clr](https://github.com/kalivodv/PRTG-custom-scripts/blob/main/images/clr.png)
+![crl](https://github.com/kalivodv/PRTG-custom-scripts/blob/main/images/crl.png)
 
 ## Get-GitLab-Readiness
 This sensor checks the health of your on-prem GitLab instance. Use with param: -gitaddress "https://git.domain.com/-/readiness?token=XXX&all=1"
